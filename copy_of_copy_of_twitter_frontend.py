@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1CFyE5i1bLnUFCrvnxXCgwWNthUV20E_7
 """
 
-!pip install tweet-preprocessor
-!pip install jupyter-dash
-!pip install dash-bootstrap-components
-!pip install tweepy
+pip install tweet-preprocessor
+pip install jupyter-dash
+pip install dash-bootstrap-components
+pip install tweepy
 
 import tweepy                   # Python wrapper around Twitter API
 from google.colab import drive  # to mount Drive to Colab notebook
